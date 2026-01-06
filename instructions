@@ -1,0 +1,10 @@
+student-ml-assignment/
+│
+├── data/
+│   └── StudentsPerformance.csv
+│
+├── notebook/
+│   └── student_ml.ipynb
+│
+├── README.md
+└── requirements.txt
