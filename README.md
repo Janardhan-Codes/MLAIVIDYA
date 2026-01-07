@@ -1,45 +1,27 @@
-<!-- Step 1: Load Dataset
+# Student Performance Prediction – Machine Learning Assignment
 
-import pandas as pd
+## Dataset
+Student Performance Dataset from Kaggle
 
-df = pd.read_csv("../data/StudentsPerformance.csv")
-df.head()
+## Project 1: Linear Regression
+- Loaded and explored dataset
+- Performed encoding
+- Built baseline Linear Regression model
+- Evaluated using R² and MAE
 
-We load the dataset using pandas to inspect its structure. -->
+## Project 2: Random Forest Regressor
+- Trained advanced model
+- Compared with Linear Regression
+- Observed improved performance
 
-
-<!-- 
-Step 2: Understand the Data
-
-df.shape
-df.columns
-df.info()
-df.describe()
-
-
-Rows = students
-
-Columns = features
-
-Target = math score -->
+## Key Learnings
+- End-to-end ML workflow
+- Importance of data preprocessing
+- Trade-offs between simple and complex models
 
 
+## Reflection
 
-<!-- Step 3: Handle Categorical Data
-
-ML models need numbers, not text.
-
-We convert text → numbers using One-Hot Encoding.
-
-df_encoded = pd.get_dummies(df, drop_first=True)
-df_encoded.head()
-
-
-One-Hot Encoding converts categorical columns into numerical format. -->
-
-<!-- Step 4: Split X and y
-
-X = df_encoded.drop("math score", axis=1)
-y = df_encoded["math score"] 
-
--->
+- The advanced model improved prediction accuracy compared to Linear Regression.
+- The most challenging part was understanding feature encoding.
+- I spent approximately 8–10 hours completing this assignment.
